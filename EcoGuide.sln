@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E6B484F6-C5E7-44AD-927D-9AAA80BCDDA0}"
+	ProjectSection(SolutionItems) = preProject
+		src\Directory.Build.props = src\Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1186998D-5C5E-4DDC-BFE7-ECDCC762BEDE}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{9E7F8EEE-236F-4029-8C8F-982E213CDF94}"
+	ProjectSection(SolutionItems) = preProject
+		tests\Directory.Build.props = tests\Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EcoGuide.Api", "src\Api\EcoGuide.Api.csproj", "{F20B40BC-2B86-460A-A114-E27D2A453E3A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EcoGuide.Data", "src\Data\EcoGuide.Data.csproj", "{A9701FA7-088E-4D8A-AD38-24AD7DD66AA5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EcoGuide.Api.Tests", "tests\Api.Tests\EcoGuide.Api.Tests.csproj", "{5E9A251E-6CC3-430D-97BD-F15CAA6CDAE8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EcoGuide.Api.Integration.Tests", "tests\Api.Integration.Tests\EcoGuide.Api.Integration.Tests.csproj", "{F66E1186-7AE2-416B-9774-DFFE319123DD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EcoGuide.Data.Tests", "tests\Data.Tests\EcoGuide.Data.Tests.csproj", "{83860BAC-01C1-408E-B4D5-C642B35038E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F20B40BC-2B86-460A-A114-E27D2A453E3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F20B40BC-2B86-460A-A114-E27D2A453E3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F20B40BC-2B86-460A-A114-E27D2A453E3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F20B40BC-2B86-460A-A114-E27D2A453E3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9701FA7-088E-4D8A-AD38-24AD7DD66AA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9701FA7-088E-4D8A-AD38-24AD7DD66AA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9701FA7-088E-4D8A-AD38-24AD7DD66AA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9701FA7-088E-4D8A-AD38-24AD7DD66AA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E9A251E-6CC3-430D-97BD-F15CAA6CDAE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E9A251E-6CC3-430D-97BD-F15CAA6CDAE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E9A251E-6CC3-430D-97BD-F15CAA6CDAE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E9A251E-6CC3-430D-97BD-F15CAA6CDAE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F66E1186-7AE2-416B-9774-DFFE319123DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F66E1186-7AE2-416B-9774-DFFE319123DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F66E1186-7AE2-416B-9774-DFFE319123DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F66E1186-7AE2-416B-9774-DFFE319123DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83860BAC-01C1-408E-B4D5-C642B35038E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83860BAC-01C1-408E-B4D5-C642B35038E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83860BAC-01C1-408E-B4D5-C642B35038E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83860BAC-01C1-408E-B4D5-C642B35038E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F20B40BC-2B86-460A-A114-E27D2A453E3A} = {E6B484F6-C5E7-44AD-927D-9AAA80BCDDA0}
+		{A9701FA7-088E-4D8A-AD38-24AD7DD66AA5} = {E6B484F6-C5E7-44AD-927D-9AAA80BCDDA0}
+		{5E9A251E-6CC3-430D-97BD-F15CAA6CDAE8} = {9E7F8EEE-236F-4029-8C8F-982E213CDF94}
+		{F66E1186-7AE2-416B-9774-DFFE319123DD} = {9E7F8EEE-236F-4029-8C8F-982E213CDF94}
+		{83860BAC-01C1-408E-B4D5-C642B35038E2} = {9E7F8EEE-236F-4029-8C8F-982E213CDF94}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00F45F46-CDD3-40DD-9282-8C0586657271}
+	EndGlobalSection
+EndGlobal

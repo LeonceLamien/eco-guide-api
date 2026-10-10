@@ -1,0 +1,11 @@
+version: '4.4'
+
+services:
+  mongo:
+    image: mongo
+    container_name: mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./openfoodfacts-mongodbdump.gz:/openfoodfacts-mongodbdump.gz
+      - ./.docker/data/db:/data/db

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+
+    <PropertyGroup>
+        <Product>EcoGuide</Product>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <LangVersion>12</LangVersion>
+        <WarningLevel>5</WarningLevel>
+    </PropertyGroup>
+    
+</Project>

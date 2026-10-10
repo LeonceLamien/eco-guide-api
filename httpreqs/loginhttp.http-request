@@ -1,0 +1,13 @@
+{
+  "body": {
+    "content": "ewoiZ3JhbnRfdHlwZSI6ICJwYXNzd29yZCIsCiAgImNsaWVudF9pZCI6ICJxaHJYcUh5NFpnN3pBb1pTZlEzc1JKODZpMXFLYXdrRSIsCiAgImNsaWVudF9zZWNyZXQiOiAiWkw0VVFlbzY0SUxoWmM5RVRfN09nRmE4RG43VVQ5QUY5cHNydDJKUE94TFNwX3FrWjhDWk9SUk1VUU5xQVRHWiIsCiAgCiAgInBhc3N3b3JkIjogIkExYjFnMWQxQCIsCiAgInVzZXJuYW1lIjogImx1a2EuY2h5MjE1QGdtYWlsLmNvbSIKfQ==",
+    "file": false,
+    "fileSize": false
+  },
+  "headers": {
+    "content-type": "application/json"
+  },
+  "method": "POST",
+  "title": "login",
+  "url": "https://dev-czb66bs1etiil5pq.us.auth0.com/oauth/token"
+}
